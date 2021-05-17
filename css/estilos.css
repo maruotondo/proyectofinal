@@ -1,0 +1,354 @@
+/*-- Globales --*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background: #f8f8f8;
+    color: #808080;
+}
+
+/*-- Padding --*/
+#band,
+#tour,
+#members,
+#discography,
+#newsletter {
+    padding: 3rem 1rem;
+}
+
+#band h2,
+#members h2 {
+    color: #FCC916;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+    text-shadow: 2px 2px 5px #9b9b9b;
+}
+
+/*--Fin globales--*/
+
+/*-- Navbar --*/
+
+.navbar {
+    background: #FCC916;
+    padding: 5px;
+}
+
+nav.navbar .navbar-nav li.nav-item a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #17120E;
+    transition: all .3s;
+
+}
+
+nav.navbar .navbar-nav li.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/*-- Fin Navbar --*/
+
+/*--Carousel--*/
+
+.carousel-inner {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.active .carousel-caption {
+    bottom: 15%;
+}
+
+.active .carousel-caption h1 {
+    font-family: 'Pacifico', cursive;
+    color: #f8f8f8;
+    font-size: 150px;
+    text-shadow: 10px 10px 10px #17120E;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+/*.carousel-indicators li --> Cambia indicadores de carousel de rayitas a circulitos*/
+
+/*Titulo que aparece sólo cuando la pantalla es menor a 576px*/
+#title {
+    padding: 50px;
+    background-image: url("../img/palmtrees.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #f8f8f8;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    bottom: 10%;
+}
+
+/*-- Band --*/
+#band p {
+    text-align: justify;
+}
+
+#band a {
+    color: #FCC916;
+    transition: all .3s;
+}
+
+#band a:hover {
+    color: #17120E;
+}
+
+/*-- Fin band --*/
+
+/*-- Tour --*/
+#tour {
+    color: #f8f8f8;
+    background-image: url("../img/tour.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#tour h2 {
+    color: #f8f8f8;
+    font-family: 'Pacifico', cursive;
+    font-size: 70px;
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 5px rgba(23, 18, 14, 0.8);
+}
+
+#tour h3,
+#tour p {
+    text-shadow: 2px 2px 5px rgba(23, 18, 14, 0.8);
+}
+
+#tour a {
+    color: #17120E;
+    transition: all .3s;
+}
+
+#tour a:hover {
+    color: #f8f8f8;
+}
+
+/*-- Fin tour --*/
+
+/*-- Members --*/
+
+#members img {
+    border-radius: 50%;
+    border: solid 15px #17120E;
+    transition: all .5s;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#members img:hover {
+    border: solid 10px #FCC916;
+    cursor: pointer;
+}
+
+#members h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.7rem;
+    color: #17120E;
+    transition: all .3s;
+
+}
+
+#members h3:hover {
+    color: #FCC916;
+    cursor: pointer;
+}
+
+#members p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #52616b;
+}
+
+/*-- Fin members --*/
+
+/*-- Discos --*/
+#disco {
+    background: #FCC916;
+    padding: 3rem 1rem;
+}
+
+#disco h2 {
+    color: #F8F8F8;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+    text-shadow: 2px 2px 5px rgba(23, 18, 14, 0.8);
+}
+
+#disco p{
+    font-family: 'Pacifico', cursive;
+}
+
+.bg-black {
+    background: rgba(23, 18, 14, 0.5);
+    color: white;
+}
+
+#disco .caja {
+    position: relative;
+}
+
+#disco .persiana {
+    position: absolute;
+    overflow: hidden;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: all 1s;
+}
+
+#disco .caja:hover .persiana {
+    bottom: 0;
+    height: 100%;
+}
+
+#disco .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    -moz-transform: translate(-50%, 0%);
+    -webkit-transform: translate(-50%, 0%);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#disco .text p {
+    font-size: 1.2em;
+}
+
+/*-- Fin discos --*/
+
+#newsletter {
+    background-image: url("../img/palmtrees.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#newsletter h2 {
+    color: #FCC916;
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    padding-bottom: 3rem;
+    text-shadow: 2px 2px 5px rgba(23, 18, 14, 0.8);
+}
+
+form {
+    background: #f8f8f894;
+    color: #17120E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form .btn-primary {
+    background: #FCC916;
+    border: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+
+form .btn-primary:hover {
+    background: #f6a020;
+    border: none;
+}
+
+/*--Footer--*/
+footer {
+    margin: 0;
+    padding: 1rem;
+    color: #f8f8f8;
+    background: #FCC916;
+}
+
+.facebook,
+.twitter,
+.instagram,
+.spotify,
+.youtube {
+    display: inline-block;
+    margin: 10px;
+}
+
+footer a,
+footer p {
+    color: #f8f8f8;
+}
+
+footer p {
+    font-size: 10px;
+}
+
+footer a:hover {
+    color: #17120E;
+    transition: all .3s;
+}
+
+/*--Fin footer--*/
+
+/*--Media querys responsivos--*/
+
+@media (min-width:500px) and (max-width:576px) {
+    .active .carousel-caption h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .active .carousel-caption h1 {
+        font-size: 75px;
+    }
+
+    .active .carousel-caption {
+        bottom: 20%;
+        left: 20%
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+    .carousel-indicators {
+        bottom: 10%;
+    }
+
+    #c-caro,
+    #demo {
+        max-height: 400px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1124px) {
+    .active .carousel-caption h1 {
+        font-size: 120px;
+    }
+
+    .active .carousel-caption {
+        bottom: 5%;
+    }
+}
+
+@media (min-width:500px) and (max-width:768px){
+    #disco .text h3, #disco .text p{
+        font-size:75%;
+    }
+}
